@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/food-trucks-v2/static/css/main.721d9561.css",
+    "main.js": "/food-trucks-v2/static/js/main.d64b45f7.js",
+    "static/js/453.ed3810f9.chunk.js": "/food-trucks-v2/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/food-trucks-v2/index.html",
+    "main.721d9561.css.map": "/food-trucks-v2/static/css/main.721d9561.css.map",
+    "main.d64b45f7.js.map": "/food-trucks-v2/static/js/main.d64b45f7.js.map",
+    "453.ed3810f9.chunk.js.map": "/food-trucks-v2/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.721d9561.css",
+    "static/js/main.d64b45f7.js"
+  ]
+}
