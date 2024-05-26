@@ -1,0 +1,16 @@
+.errorPage {
+    padding: 20px;
+}
+
+.retryButton {
+    padding: 8px 16px;
+    background-color: #1a1a1e;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.retryButton:not(:disabled):hover {
+    background-color: #59595f;
+}

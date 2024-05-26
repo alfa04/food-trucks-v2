@@ -1,0 +1,28 @@
+.loadingSpinner {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.scrollableContent {
+    flex: 1;
+    overflow-y: auto;
+    padding: 20px 20px 0px;
+}
+
+.trucksList ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.trucksList li {
+    margin-bottom: 12px;
+    padding: 12px;
+    background: white;
+    border-radius: 4px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
+}
+
