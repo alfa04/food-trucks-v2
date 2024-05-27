@@ -32,7 +32,6 @@ const Trucks = ({errorSimulationStatus, initialPage}) => {
                             <ul>
                                 {data.map(item => (
                                     <li key={item[':id']}>{item.applicant}</li>
-
                                 ))}
                             </ul>
                         </div>

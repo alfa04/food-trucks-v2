@@ -15,7 +15,7 @@ const EReader = () => {
     }
 
     return (
-        <div className="eReaderWrapper">
+        <div className="eReaderWrapper" data-testid="e-reader">
             <div className="eReaderFrame">
                 <ErrorBoundary
                     FallbackComponent={ErrorFallbackPage}
