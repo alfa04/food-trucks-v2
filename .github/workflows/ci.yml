@@ -31,7 +31,7 @@ jobs:
     - name: Build project
       run: npm run build
 
-    - name: Deploy to GitHub Pages
+    - name: Deploy to Netlify
       if: github.event_name == 'push' && github.ref == 'refs/heads/main'
       run: curl -X POST -d {} https://api.netlify.com/build_hooks/6653d57879e1e2fc3f9c04ee
       env:
