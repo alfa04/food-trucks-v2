@@ -7,8 +7,8 @@ import Controls from "./common/controls/Controls";
 
 const Trucks = ({errorSimulationStatus, initialPage}) => {
     const [page, setPage] = useState(initialPage);
-    const [itemsPerPage, setItemsPerPage] = useState(10);
-    const {data, error, isLoading, isError} = useGetTrucks(page, itemsPerPage, errorSimulationStatus);
+    const [itemsPerPage] = useState(10); // Add feature to make number of items dynamic
+    const {data, isLoading} = useGetTrucks(page, itemsPerPage, errorSimulationStatus);
     //return <LoadingSpinner />
 
     /*dd nomponent to naviga, sisable control when no more pages, and change de number of truck per page, filter just truck with button instead???*/
